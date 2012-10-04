@@ -80,7 +80,10 @@
     <Compile Include="Calculator.cs" />
     <Compile Include="MessageGenerator.cs" />
     <Compile Include="web\application\catalogbrowsing\DepartmentItem.cs" />
+    <Compile Include="web\application\catalogbrowsing\ICanPrintItemInfo.cs" />
+    <Compile Include="web\application\catalogbrowsing\ICanUniquelyIdentifyMyself.cs" />
     <Compile Include="web\application\catalogbrowsing\IFindInformationInTheStore.cs" />
+    <Compile Include="web\application\catalogbrowsing\Node.cs" />
     <Compile Include="web\application\catalogbrowsing\ProductItem.cs" />
     <Compile Include="web\application\catalogbrowsing\stubs\StubStoreCatalog.cs" />
     <Compile Include="web\application\catalogbrowsing\ViewProductsInADepartmentRequest.cs" />
