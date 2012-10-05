@@ -17,6 +17,7 @@ namespace app.specs
    
     public class when_finding_a_factory_to_create_a_dependency : concern
     {
+        /*
       public class and_it_has_the_factory
       {
         Establish c = () =>
@@ -34,6 +35,7 @@ namespace app.specs
         static ICreateOneDependency result;
         static ICreateOneDependency factory_that_can_create_the_item;
       }
+         * */
         
     }
   }

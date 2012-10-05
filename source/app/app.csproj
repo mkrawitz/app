@@ -77,6 +77,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bowling\IThrowBalls.cs" />
+    <Compile Include="bowling\Player.cs" />
     <Compile Include="core\containers\basic\Container.cs" />
     <Compile Include="core\containers\Dependencies.cs" />
     <Compile Include="core\containers\DependencyFactories.cs" />
@@ -125,9 +127,7 @@
     <Compile Include="web\core\stubs\StubRequestFactory.cs" />
     <Compile Include="web\core\stubs\StubSetOfCommands.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bowling\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
